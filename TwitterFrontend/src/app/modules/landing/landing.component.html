@@ -18,13 +18,13 @@
       Sign up with Apple
     </button>
     <div class="or-divider">OR</div>
-    <button class="create-btn">Create account</button>
+    <button class="create-btn" [routerLink]="['/auth/login']">Create account</button>
     <p class="terms">
       By signing up, you agree to the Terms of Service and Privacy Policy, including <a href="#">Cookie Use</a>.
     </p>
     <div class="signin-section">
       <span>Already have an account?</span>
-      <button class="signin-btn">Sign in</button>
+      <button class="signin-btn" [routerLink] = "['/auth/register']">Sign in</button>
       <button class="grok-btn">
         <span class="icon">&#9906;</span>
         Get Grok
@@ -32,3 +32,4 @@
     </div>
   </div>
 </div>
+
