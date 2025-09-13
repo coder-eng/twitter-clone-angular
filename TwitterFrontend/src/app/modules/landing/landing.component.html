@@ -1,0 +1,35 @@
+<div class="landing-container">
+  <div class="logo-section">
+    <img src="assets/X_logo_2023_(white).png" alt="X Logo" class="x-logo" />
+  </div>
+  <div class="form-section">
+    <!-- <div>
+      <span>Happening now</span>
+    </div> -->
+    <h1>Happening now</h1>
+    
+    <h2>Join today.</h2>
+    <button class="google-btn">
+      <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" class="icon" />
+      Sign in with Google 
+    </button>
+    <button class="apple-btn">
+      <span class="icon">&#63743;</span>
+      Sign up with Apple
+    </button>
+    <div class="or-divider">OR</div>
+    <button class="create-btn" [routerLink]="['/auth/login']">Create account</button>
+    <p class="terms">
+      By signing up, you agree to the Terms of Service and Privacy Policy, including <a href="#">Cookie Use</a>.
+    </p>
+    <div class="signin-section">
+      <span>Already have an account?</span>
+      <button class="signin-btn" [routerLink] = "['/auth/register']">Sign in</button>
+      <button class="grok-btn">
+        <span class="icon">&#9906;</span>
+        Get Grok
+      </button>
+    </div>
+  </div>
+</div>
+
